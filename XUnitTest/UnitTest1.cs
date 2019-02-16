@@ -20,5 +20,16 @@ namespace XUnitTest
             //Assert
             Assert.Equal(expectedValue, sum, 1);
         }
+
+        [Trait("Category","CategoryA")]
+        [Theory]
+        [InlineData(1,"Dhruv")]
+        [InlineData(2,"Abhir")]
+        [InlineData(3,"Aayush")]
+        public void TDDTestCase(int empID, string name)
+        {
+            var result = ArithmeticOperation.GetEmployeeName(empID);
+            Assert.Equal(name, result);
+        }
     }
 }

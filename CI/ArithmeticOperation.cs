@@ -11,5 +11,23 @@ namespace CI
         {
             return number1 + number2;
         }
+
+        public static string GetEmployeeName(int empId)
+        {
+            string name;
+            if (empId == 1)
+            {
+                name = "Dhruv";
+            }
+            else if (empId == 2)
+            {
+                name = "Abhir";
+            }
+            else
+            {
+                name = "Aayush";
+            }
+            return name;
+        }
     }
 }
