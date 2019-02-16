@@ -1,7 +1,8 @@
+using CI;
 using System;
 using Xunit;
-using CI;
-namespace UnitTest
+
+namespace XUnitTest
 {
     public class UnitTest1
     {
