@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CI", "CI\CI.csproj", "{A7D729D6-A24E-48A3-A9C1-60D9AF22A4AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTest", "XUnitTest\XUnitTest.csproj", "{EEA1D04E-F254-487B-8565-A114ABB11B42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTest", "XUnitTest\XUnitTest.csproj", "{EEA1D04E-F254-487B-8565-A114ABB11B42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTest", "NUnitTest\NUnitTest.csproj", "{2362CBC4-6BE0-42A6-AEA2-4D81AC8F3005}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{EEA1D04E-F254-487B-8565-A114ABB11B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEA1D04E-F254-487B-8565-A114ABB11B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEA1D04E-F254-487B-8565-A114ABB11B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2362CBC4-6BE0-42A6-AEA2-4D81AC8F3005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2362CBC4-6BE0-42A6-AEA2-4D81AC8F3005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2362CBC4-6BE0-42A6-AEA2-4D81AC8F3005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2362CBC4-6BE0-42A6-AEA2-4D81AC8F3005}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
